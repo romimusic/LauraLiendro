@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "open-sans", Arial, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  color: #ffffff;
+}
+header .content-logo {
+  padding: 25px 0;
+}
+header .content-logo .logo a {
+  display: block;
+}
+header .content-logo .logo a img {
+  vertical-align: top;
+  height: 90px;
+}
+header .content-logo .menu {
+  text-align: right;
+  line-height: 50px;
+}
+header .content-logo .menu a {
+  color: #000;
+  margin-left: 60px;
+  font-size: 18px;
+}
+header .text-name {
+  background-image: url(../img/laucopia.png);
+  height: 650px;
+}
+header .text-name .name,
+header .text-name .slogan {
+  font-family: "open sans", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  padding-left: 400px;
+}
+header .text-name .img-principal img {
+  height: 650px;
+}
+header .text-name .name-principal {
+  color: #000000;
+  text-align: center;
+}
+header .text-name .name-principal .name {
+  font-size: 45px;
+  line-height: 45px;
+  margin-top: 170px;
+  margin-bottom: 30px;
+}
+header .text-name .name-principal .slogan {
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 60px;
+}
+
+.main .social-medial {
+  padding: 70px 0;
+  background: #111111;
+}
+.main .social-medial .ig {
+  height: 100px;
+}
+.main .services {
+  padding: 70px 0;
+}
+.main .services .title .title-serv {
+  text-align: center;
+  font-family: "open sans", Arial, sans-serif;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 30px;
+}
+.main .services .service {
+  text-align: center;
+}
+.main .services .service .icon {
+  vertical-align: top;
+  margin-bottom: 30px;
+  width: 100px;
+}
+.main .services .service .first-line {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.main .services .service .detail-service {
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.main .ist {
+  background: url(../img/migrantes.png);
+  background-size: cover;
+}
+.main .ist .title {
+  color: #ffffff;
+  text-align: center;
+  padding: 70px 0;
+  font-size: 45px;
+  font-family: "open-sans", Arial, sans-serif;
+  font-weight: 700;
+}
+.main .ist .text-ist {
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "open-sans", Arial, sans-serif;
+  line-height: 25px;
+  font-size: 25px;
+  padding: 50px 0;
+}
+.main .about-me {
+  background-image: url(../img/IMG-7136.jpg);
+  background-repeat: no-repeat;
+}
+.main .about-me .biography {
+  background: #ffffff;
+}
+.main .about-me .biography .img {
+  margin-left: -160px;
+}
+.main .about-me .biography .title {
+  color: #3b4042;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 45px;
+  font-family: "open-sans", Arial, sans-serif;
+  font-weight: 700;
+}
+.main .about-me .biography .text-ist {
+  color: #000;
+  font-weight: 300;
+  font-family: "open-sans", Arial, sans-serif;
+  line-height: 25px;
+  padding-top: 50px;
+}
+.main .contact textarea {
+  resize: none;
+}
+
+footer .direction {
+  background: #3c4045;
+  padding: 30px 0;
+  color: #fff;
+}
+footer .direction .title {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 30px;
+  margin-bottom: 30px;
+}
+footer .direction .email,
+footer .direction .street {
+  margin-bottom: 10px;
+}
+footer .direction .logo {
+  vertical-align: top;
+  height: 200px;
+}
+footer .social-media {
+  text-align: center;
+}
+footer .social-media a {
+  padding: 10px;
+  display: inline-block;
+  margin: 0 20px;
+  width: 50px;
+  font-size: 22px;
+  color: #ffffff;
+  background: #000;
+  border-radius: 100px;
+}
+footer .social-media a:hover {
+  text-decoration: none;
+}
+footer .social-media a.facebook {
+  background: #3b5998;
+}
+footer .social-media a.twitter {
+  background: #55acee;
+}
+footer .social-media a.instagram {
+  background: #c13584;
+}
+footer .social-media a.youtube {
+  background: #cd201f;
+}
+
+@media screen and (max-width: 992px) {
+  .container .content-logo {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .container .content-logo .menu {
+    text-align: center;
+  }
+  .container .content-logo .menu a {
+    margin: 0 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
